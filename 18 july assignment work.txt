@@ -1,0 +1,442 @@
+number swap (1st method)
+#include<stdio.h>
+int main()
+{
+   int a=10;
+   int b=20;
+   printf("the real value of a is :%d\n",a);
+   printf("the real value of b is :%d\n",b);
+   a=a+b;
+   b=a-b;
+   a=a-b;
+   printf("the swap value of a is :%d\n",a);
+   printf("the swap value of b is :%d\n",b);
+   return 0;
+}
+--------------------------------------------------------------
+(2nd method)
+#include<stdio.h>
+int main()
+{
+   int a=10;
+   int b=20;
+   printf("the real value of a is :%d\n",a);
+   printf("the real value of b is :%d\n",b);
+   a=a*b;//10*20=200
+   b=a/b;//200/20=10
+   a=a/b;//200/10=20
+   printf("the swap value of a is :%d\n",a);
+   printf("the swap value of b is :%d\n",b);
+   return 0;
+}
+-------------------------------------------------------------
+(3rd method)
+#include<stdio.h>
+int main()
+{
+   int a=10;
+   int b=20;
+   int c;
+   printf("the real value of a is :%d\n",a);
+   printf("the real value of b is :%d\n",b);
+   c=a;//c=0 a=10,c=10 a=0;
+   a=b;//a=0 b=20,a=20 b=0;
+   b=c;//b=0 c=10,b=10 c=0;
+   printf("the swap value of a is :%d\n",a);
+   printf("the swap value of b is :%d\n",b);
+   return 0;
+}
+------------------------------------------------------------------
+1.question
+#include<stdio.h>
+int main()
+{
+   int age;
+   printf("enter the age");
+   scanf("%d",&age);
+   if(age>=18)
+   {
+       printf("valid for vote");
+   }
+   else {
+       printf("not valid for vote");
+   }
+   return 0;
+}
+
+-------------------------------------------------------------------------
+2.question
+#include<stdio.h>
+int main()
+{
+   int a,b;
+   printf("enter the number of a and b");
+   scanf("%d %d",&a,&b);
+   if(a>b)
+   {
+       printf("a is greater ");
+   }
+   else {
+       printf("b is greater ");
+   }
+   return 0;
+}
+
+------------------------------------------------------------------------
+3.question
+#include<stdio.h>
+int main()
+{
+   int num;
+   printf("enter the number");
+   scanf("%d",&num);
+   if(num%2==0)
+   {
+       printf("this num is even ");
+   }
+   else {
+       printf("this num is odd ");
+   }
+   return 0;
+}
+-----------------------------------------------------------------------------
+4.question
+#include<stdio.h>
+int main()
+{
+   int num;
+   printf("enter the number");
+   scanf("%d",&num);
+   if(num%5==0)
+   {
+       printf("this num is divisible by 5");
+   }
+   else {
+       printf("this num is not divisible by 5");
+   }
+   return 0;
+}
+
+--------------------------------------------------------------------
+5 question
+#include<stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("enter the number");
+   scanf("%d %d %d",&a,&b,&c);
+   if(a>b && a>c)
+   {
+       printf("a is greater than b and c");
+   }
+   else {
+       printf("b and c is greater than a");
+   }
+   return 0;
+}
+
+--------------------------------------------------------------
+6 question
+#include<stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("enter the number");
+   scanf("%d %d %d",&a,&b,&c);
+   if(a>b && a>c)
+   {
+       printf("a is greater than b and c");
+   }
+   else {
+       printf("b and c is greater than a");
+   }
+   return 0;
+}
+
+------------------------------------------------------------------------
+7 question
+#include<stdio.h>
+int main()
+{
+   int num;
+   printf("enter the number");
+   scanf("%d",&num);
+   if(num==5)
+   {
+       printf("it is equal");
+   }
+   else {
+       printf("it is not equal");
+   }
+   return 0;
+}
+
+-----------------------------------------------------------------------------
+8 question
+#include<stdio.h>
+int main()
+{
+   int num;
+   printf("enter the number");
+   scanf("%d",&num);
+   if(num%11==0 && num%5==0)
+   {
+       printf("both are divisible");
+   }
+   else {
+       printf("both are not divisible");
+   }
+   return 0;
+}
+
+---------------------------------------------------------------------------------------
+9 question
+#include<stdio.h>
+int main()
+{
+   int num;
+   printf("enter the number");
+   scanf("%d",&num);
+   if(num%7==0 || num%3==0)
+   {
+       printf(" divisible");
+   }
+   else {
+       printf("both are not divisible");
+   }
+   return 0;
+}
+
+--------------------------------------------------------------------------------------
+10 question
+#include<stdio.h>
+int main()
+{
+   int num;
+   printf("enter the number");
+   scanf("%d",&num);
+   if(num==5 || num==7 || num==11 || num==13)
+   {
+       printf(" it is valid");
+   }
+   else {
+       printf("it is  not valid");
+   }
+   return 0;
+}
+
+-------------------------------------------------------------------
+11 question
+#include<stdio.h>
+int main()
+{
+   char vow;
+   printf("enter the letter");
+   scanf("%c",&vow);
+   if(vow=='a'|| vow=='e' || vow=='i' || vow=='o' ||vow=='u')
+   {
+       printf(" vowel");
+   }
+   else {
+       printf("consonant");
+   }
+   return 0;
+}
+
+---------------------------------------------------------------------------------
+12 question
+#include<stdio.h>
+int main()
+{
+   int year;
+   printf("enter the year");
+   scanf("%d",&year);
+   if(year%4==0)
+   {
+       printf(" it is a leap year");
+   }
+   else {
+       printf("it is not a leap year");
+   }
+   return 0;
+}
+
+--------------------------------------------------------------------
+13 question
+#include<stdio.h>
+int main()
+{
+   int h,e,m,s,c;
+   printf("enter the marks");
+   scanf("%d %d %d %d %d",&h,&e,&m,&s,&c);
+   if(h>40 && e>40 && m>40 && s>40 && c>40)
+   {
+   else {
+       printf("fail");
+   }
+   return 0;
+}
+
+-----------------------------------------------------------------------------
+14 question
+#include<stdio.h>
+int main()
+{
+   char alpha;
+   printf("enter the alphabets");
+   scanf("%c",&alpha);
+   if(alpha=='a' ||alpha=='f' ||alpha=='g' || alpha=='h')
+   {
+       printf("condition is true");
+   }
+   else {
+       printf("condition is not true");
+   }
+   return 0;
+}
+
+--------------------------------------------------------------------------------------
+15 question
+#include<stdio.h>
+int main()
+{
+   char gender;
+   printf("enter the gender");
+   scanf("%c",&gender);
+   if(gender=='f')
+   {
+       printf("condition is true");
+   }
+   else {
+       printf("condition is not true");
+   }
+   return 0;
+}
+
+-----------------------------------------------------------------------------------------------------------------
+ 
+
+
+#include<stdio.h>
+int main()
+{
+    int age;
+    printf("enter the number");
+    scanf("%d",&age);
+    if(age>=18)
+    {
+        printf("valid for vote");
+    }
+    else {
+        printf("not valid for vote");
+    }
+    return 0;
+}
+    ---------------------------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num>10)
+    {
+        printf("num is max");
+    }
+    else {
+        printf("num is not max");
+    }
+    return 0;
+}
+    ------------------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the number");
+    scanf("%d %d %d",&a,&b,&c);
+    if(a>b && b>c)
+    {
+        printf("a is max");
+    }
+    else if(b>a && b>c)
+    {
+        printf("b is max");
+    }
+    else 
+    {
+        printf("c is max");
+    }
+        return 0;
+}
+---------------------------------------------------------------------------------------------
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e
+    printf("enter the number");
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,e);
+    if(a>b && b>c && a>d && a>e)
+    {
+        printf("a is max");
+    }
+    else if(b>a && b>c && b>d b>e)
+    {
+        printf("b is max");
+    }
+    else if(c>a && c>b && c>d c>e)
+    {
+        printf("c is max");
+    }
+    else if(d>a && d>b && d>c  d>e)
+    {
+        printf("d is max");
+    }
+    else {
+        printf("e is max")
+    {
+        return 0;
+}
+--------------------------------------------------------------------------------------
+
+
+
+#include<stdio.h>
+int main()
+{
+   char vow;
+   printf("enter the letter");
+   scanf("%c",&vow);
+   if(vow=='a'|| vow=='e' || vow=='i' || vow=='o' ||vow=='u')
+   {
+       printf(" vowel");
+   }
+   else {
+       printf("consonant");
+   }
+   return 0;
+}
+
+----------------------------------------------------------------------------------------
+
+#include<stdio.h>
+int main()
+{
+   int num;
+   printf("enter the number");
+   scanf("%d",&num);
+   if(num%11==0 && num%5==0)
+   {
+       printf("both are divisible");
+   }
+   else {
+       printf("both are not divisible");
+   }
+   return 0;
+}
+
+
+

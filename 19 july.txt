@@ -1,0 +1,192 @@
+#include<stdio.h>
+int main()
+{
+    int age;
+    printf("enter the number");
+    scanf("%d",&age);
+    if(age>=18)
+    {
+        printf("valid for vote");
+    }
+    else {
+        printf("not valid for vote");
+    }
+    return 0;
+}
+    ---------------------------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num>10)
+    {
+        printf("num is max");
+    }
+    else {
+        printf("num is not max");
+    }
+    return 0;
+}
+    ------------------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("enter the number");
+    scanf("%d %d %d",&a,&b,&c);
+    if(a>b && b>c)
+    {
+        printf("a is max");
+    }
+    else if(b>a && b>c)
+    {
+        printf("b is max");
+    }
+    else 
+    {
+        printf("c is max");
+    }
+        return 0;
+}
+---------------------------------------------------------------------------------------------
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e
+    printf("enter the number");
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,e);
+    if(a>b && b>c && a>d && a>e)
+    {
+        printf("a is max");
+    }
+    else if(b>a && b>c && b>d b>e)
+    {
+        printf("b is max");
+    }
+    else if(c>a && c>b && c>d c>e)
+    {
+        printf("c is max");
+    }
+    else if(d>a && d>b && d>c  d>e)
+    {
+        printf("d is max");
+    }
+    else {
+        printf("e is max")
+    {
+        return 0;
+}
+--------------------------------------------------------------------------------------
+
+
+
+#include<stdio.h>
+int main()
+{
+   char vow;
+   printf("enter the letter");
+   scanf("%c",&vow);
+   if(vow=='a'|| vow=='e' || vow=='i' || vow=='o' ||vow=='u')
+   {
+       printf(" vowel");
+   }
+   else {
+       printf("consonant");
+   }
+   return 0;
+}
+
+----------------------------------------------------------------------------------------
+
+#include<stdio.h>
+int main()
+{
+   int num;
+   printf("enter the number");
+   scanf("%d",&num);
+   if(num%11==0 && num%5==0)
+   {
+       printf("both are divisible");
+   }
+   else {
+       printf("both are not divisible");
+   }
+   return 0;
+}
+----------------------------------------------------------------------------------------
+#include <stdio.h>
+int main()
+{
+    char ch;
+    printf("enter the value");
+    scanf("%c",&ch);
+    if(ch>='a'&& ch<='z')
+    {
+      printf("this is alphabet");
+    }
+    else if(ch>='0' && ch<='9')
+    {
+        printf("this is number");
+    }
+    return 0;
+}
+
+
+
+--------------------------------------------------------------------------------
+#include<stdio.h>
+int main()
+{
+    int num;
+    printf("enter the marks");
+    scanf("%d",&num);
+    if(num<=25)
+    {
+        printf("grade f");
+    }
+    else if(num>=25 && num<=45)
+    {
+        printf("grade E");
+    }
+    else if(num>=45 && num<=60)
+    {
+        printf("grade c");
+    }
+    else if(num>=50 && num<=80)
+    {
+        printf("grade B");
+    }
+    else if(num>=80)
+    {
+        printf("grade A");
+    }
+    return 0;
+}
+------------------------------------------------------------------------------------------
+
+
+#include<stdio.h>
+int main()
+{
+    int hincm;
+    printf("enter the height in centimeter");
+    scanf("%d",&hincm);
+    if(hincm<=150)
+    {
+        printf("low\n");
+    }
+    else if(hincm>=150 && hincm<=180)
+    {
+        printf("mid\n");
+    }
+    else {
+        printf("high/n");
+    }
+    return 0;
+}
+-------------------------------------------------------------------------------------------
