@@ -1,0 +1,166 @@
+1 question
+#include <stdio.h>
+int main()
+{
+    int num=1;
+    for(int num=1;num<=10;num++)
+    {
+        printf("%d ",num*2);
+    }
+    return 0;
+    }
+========================================
+#include <stdio.h>
+int main()
+{
+    for(int num=1;num<=10;num++)
+    {
+        printf("%d ",num*3);
+    }
+    return 0;
+    }
+======================================
+#include <stdio.h>
+int main()
+{
+    for(int num=1;num<=10;num++)
+    {
+        printf("%d ",num*4);
+    }
+    return 0;
+    }
+========================================
+#include <stdio.h>
+int main()
+{
+    for(int num=1;num<=10;num++)
+    {
+        printf("%d ",num*5);
+    }
+    return 0;
+    }
+============================================
+#include <stdio.h>
+int main()
+{
+    for(int num=1;num<=10;num++)
+    {
+        printf("%d ",num*6);
+    }
+    return 0;
+    }
+============================================
+#include <stdio.h>
+int main()
+{
+    for(int num=1;num<=10;num++)
+    {
+        printf("%d ",num*7);
+    }
+    return 0;
+    }
+=========================================
+#include <stdio.h>
+int main()
+{
+    for(int num=1;num<=10;num++)
+    {
+        printf("%d ",num*8);
+    }
+    return 0;
+    }
+=========================================
+#include <stdio.h>
+int main()
+{
+    for(int num=1;num<=10;num++)
+    {
+        printf("%d ",num*9);
+    }
+    return 0;
+    }
+==================================================
+#include <stdio.h>
+int main()
+{
+    for(int num=1;num<=10;num++)
+    {
+        printf("%d ",num*10);
+    }
+    return 0;
+    }
+=====================================================
+3 questiom
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d ",&num);
+    for(int num =1;num<=10;num++)
+    {
+        printf("%d ",num*9);
+    }
+    return 0;
+}
+===================================================
+#include <stdio.h>
+int main()
+{
+    int num;
+    printf("enter the number");
+    scanf("%d ",&num);
+    for(int num =1;num<=10;num++)
+    {
+        printf("%d ",num*14);
+    }
+    return 0;
+}
+================================================
+#include <stdio.h>
+int main()
+{
+    int start =5;
+    int end =10;
+    printf("%d", start, end);
+    for(int i = 5;i <= 10;i++)
+    {
+        printf("table of %d\n",i;);
+        for(int j = 1; j <= 10;j++)
+                {
+            printf("%d",i*j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+==================================================
+#include <stdio.h>
+int main()
+{
+    int number = 2;
+    int result;
+    printf("multiplication table of %d\n",number);
+    for(int i =1; i <= 10;i++)
+    {
+        result = number * i;
+        printf("%d * %d = %d\n", number, i,result);
+    }
+    return 0;
+}
+==================================================
+#include <stdio.h>
+int main()
+{
+    int i,j;
+    for(i=1;i<=3;i++)
+    {
+        for(j=1;j<=i;j++)
+        {
+            printf("%d",i,j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
+========================================================
