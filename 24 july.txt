@@ -1,0 +1,290 @@
+1 question  
+//1--100
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    while(a<=100)
+    {
+        if(a%2==0)
+        {
+        printf("%d ",a);
+        }
+        a++;
+    }
+    return 0;
+}
+==========================================================
+2 question
+//1--100
+#include<stdio.h>
+int main()
+{
+    int a=1;
+    while(a<=100)
+    {
+        if(a%2==0)
+        {
+        printf("%d ",a);
+        }
+        a++;
+    }
+    return 0;
+}
+===============================================================
+3 question
+//100--1
+#include<stdio.h>
+int main()
+{
+    int a=100;
+    while(a>=1)
+    {
+        if(a%2==0)
+        {
+        printf("%d ",a);
+        }
+        a--;
+    }
+    return 0;
+}
+=====================================================
+4 question
+//100--1
+#include<stdio.h>
+int main()
+{
+    int a=100;
+    while(a>=1)
+    {
+        if(a%2!=0)
+        {
+        printf("%d ",a);
+        }
+        a--;
+    }
+    return 0;
+}
+======================================================
+5 question
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("enter the number");
+    scanf("%d %d",&a,&b);
+    while(a<=b)
+    {
+        if(a%2==0)
+        {
+            printf("%d",a);
+        }
+        a++;
+    }
+    return 0;
+}
+============================================================
+6 question
+#include<stdio.h>
+int main()
+{
+    for(int i=1;i<=100;i++)
+    {
+        if(i%2==0)
+        {
+            printf("%d ",i);
+        }
+    }
+    return 0;
+}
+===============================================
+7 question
+#include<stdio.h>
+int main()
+{
+    for(int i=1;i<=100;i++)
+    {
+        if(i%2!=0)
+        {
+            printf("%d ",i);
+        }
+    }
+    return 0;
+}
+===========================================================
+#include<stdio.h>
+int main()
+{
+    for(int i=100;i>=1;i--)
+    {
+        if(i%2==0)
+        {
+            printf("%d ",i);
+        }
+    }
+    return 0;
+}
+====================================================================
+9 question
+#include<stdio.h>
+int main()
+{
+    for(int i=100;i>=1;i--)
+    {
+        if(i%2!=0)
+        {
+            printf("%d ",i);
+        }
+    }
+    return 0;
+}
+========================================================
+10question
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("enter the number");
+    scanf("%d %d",&a,&b);
+    for(int a;a<=b;a++)
+    {
+        if(a%2==0)
+        {
+            printf("%d ",a,b);
+        }
+    }
+    return 0;
+}
+================================================================
+11 question
+#include<stdio.h>
+int main()
+{
+    int num,i,j,s;
+    printf("enter the number");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++)
+    {
+        for(s=2;s>=i;s--)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+  ===================================================
+12 question
+#include<stdio.h>
+int main()
+{
+    int num,i,j,s;
+    printf("enter the number");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++)
+    {
+        for(s=1;s<=i;s++)
+        {
+            printf(" ");
+        }
+        for(j=3;j>=i;j--)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+=====================================================
+13 question
+
+  #include<stdio.h>
+int main()
+{
+    int num,i,j,s;
+    printf("enter the number");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++)
+    {
+        for(s=2;s>=i;s--)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    for(i=1;i<=num;i++)
+    {
+        for(s=1;s<=i;s++)
+        {
+            printf(" ");
+        }
+        for(j=3;j>=i;j--)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+===================================================
+14 question
+#include<stdio.h>
+int main()
+{
+    int num,i,j,s;
+    printf("enter the number");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++)
+    {
+        for(s=2;s>=i;s--)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    for(i=1;i<=num;i++)
+    {
+        for(s=1;s<=i;s++)
+        {
+            printf(" ");
+        }
+        for(j=2;j>=i;j--)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+============================================================
+15 question
+#include<stdio.h>
+int main()
+{
+    int n=1;
+    for(int i=0; i<=3;i++)
+    {
+        for(int j=0; j<=3;j++)
+        {
+            printf("%4d",n);
+        }
+        n++;
+        printf("\n");
+    }
+    return 0;
+}
+========================================================
+
+
