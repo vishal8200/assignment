@@ -286,5 +286,48 @@ int main()
     return 0;
 }
 ========================================================
+16 question
+#include<stdio.h>
+int main()
+{
+    int num,i,j,s;
+    printf("enter the number");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++)
+    {
+        for(s=2;s>=i;s--)
+        {
+            printf(" ");
+        }
+        for(j=1;j<=i;j++)
+        {
+            printf(" *");
+        }
+        printf("\n");
+    }
+    return 0;
+}
+===================================================================
+17 question
+#include<stdio.h>
+int main()
+{
+    int num,i,j,s;
+    printf("enter the number");
+    scanf("%d",&num);
+    for(i=1;i<=num;i++)
+    {
+        for(s=1;s<=i;s++)
+        {
+            printf(" ");
+        }
+        for(j=4;j>=i;j--)
+        {
+            printf(" *");
+        }
+        printf("\n");
+    }
+    return 0;
+}=======================================================
 
 
