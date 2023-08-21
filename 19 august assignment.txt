@@ -1,0 +1,147 @@
+1 question 
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    int add=a+b;
+    cout<<"the addition is:"<<add<<endl;
+    return 0;
+}======================================================
+ 
+2 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    int sub=a-b;
+    cout<<"the subtract is:"<<sub<<endl;
+    return 0;
+}
+=====================================================
+ 3 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    int modulas=a%b;
+    cout<<"the result is:"<<modulas<<endl;
+    return 0;
+}
+===============================
+4 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    int multiply=a*b;
+    cout<<"the result is:"<<multiply<<endl;
+    return 0;
+}
+=======================================
+5 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b;
+    cin>>a>>b;
+    int division=a/b;
+    cout<<"the result is:"<<division<<endl;
+    return 0;
+}
+================================================
+6 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int result;
+    result=((((3+4)*2)/2)-5);
+    cout<<"result is"<<result;
+    return 0;
+}
+==========================================
+7 question
+#include<iostream>
+u
+sing namespace std;
+int main()
+{
+    int a,b,c,d;
+    cin>>a>>b>>c;
+    d=a*b*c;
+    cout<<"multiple is:"<<d<<endl;
+    return 0;
+}
+    ============================================
+8 qustion
+#include<iostream>
+using namespace std;
+int main()
+{
+    int breadth,height,area;
+    cin>>breadth>>height;
+    area=0.5*breadth*height;
+    cout<<"area is:"<<area<<endl;
+    return 0;
+}======================================
+9 quwstion
+#include<iostream>
+using namespace std;
+int main()
+{
+    int breadth,height,area;
+    cin>>breadth>>height;
+    area=1/2*breadth*height;
+    cout<<"area is:"<<area<<endl;
+    return 0;
+}
+========================================
+10 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b;
+    c=(a*a+b*b);
+    cout<<"result is:"<<c<<endl;
+    return 0;
+}
+========================================================
+11 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    long a;
+    cin>>a;
+    cout<<"the enter number is:"<<a;
+    return 0;
+}
+================================================
+
+12 QUESTION
+#include<iostream>
+using namespace std;
+int main()
+{
+    float I,pa,rate;
+    cin>>pa>>rate;
+    rate=rate/100;
+    I=pa+(1+rate);
+    cout<<"interest is:"<<I<<endl;
+    return 0;
+}
+
+
+
+=====================================================
