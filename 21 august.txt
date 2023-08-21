@@ -1,0 +1,52 @@
+1 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cin>>a>>b>>c;
+    int d=((((b*b)-4)*a)*c);
+    cout<<"the equation "<<a<< "x^x+"<< b <<"x+"<<c<<" is:"<<d;
+    return 0;
+}
+===========================================
+2 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x1,x2,y1,y2;
+    cin>>x1>>x2>>y1>>y2;
+    int a=(x1+x2)/2;     
+    int b=(y1+y2)/2;
+    cout<<" the sum of x1+x2 is: "<<a<<endl;
+    cout<<"the sum of y1+y2 is: "<<b<<endl;
+    return 0;
+}
+-=========================================
+3 question
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d,e;
+    cin>>a>>b>>c>>d>>e;
+    float average=(a+b+c+d+e)/5;
+    cout<<"average is:"<<average<<endl;
+    return 0;
+}
+==============================================
+4 question
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int a,b,c,s;
+    cin>>a>>b>>c>>s;
+    int result=sqrt((s)*(s-a)*(s-b)*(s-c));
+    cout<<"square root result is:"<<result<<endl;
+    return 0;
+}================================================
+
