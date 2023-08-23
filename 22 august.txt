@@ -1,0 +1,127 @@
+1 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    float celcius,fahrenheit;
+    cout<<"enter the value of c and fahrenheit\n";
+    cin>>celcius;
+    fahrenheit=((celcius*(9/5))+32);
+    cout<<"temparate in fahrenheit"<<fahrenheit<<endl;
+    return 0;
+}
+=====================================
+2 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    float height,base,area;
+    cout<<"enter the value for base and height:\n";
+    cin>>base>>height;
+    area=base*height;
+    cout<<"area of 11gm is: "<<area;
+    return 0;
+}
+========================================
+3 question
+#include<iostream>
+#include<cmath>
+#include<math.h>
+using namespace std;
+int main()
+{
+   float radius,surfacearea;
+   cout<<"enter the value for radius and surfacearea:\n";
+   cin>>radius;
+   surfacearea= 4 * M_PI * pow (radius,2);
+   cout<<"surfacearea is :"<<surfacearea;
+   return 0;
+}
+======================================
+4 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,sum;
+    cout<<"enter value for a and b\n";
+    cin>>a>>b;
+    sum =a+b;
+    if(sum>18)
+    cout<<"sum is greater"<<endl;
+    else 
+    cout<<"sum is not greater"<<endl;
+    return 0;
+}
+=============================================
+5 question
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    float semi_majoraxis,semi_minoraxis,area;
+    cout<<"enter the value for semi major and minor axis:\n";
+    cin>>semi_majoraxis>>semi_minoraxis;
+    area=3.14*semi_majoraxis*semi_minoraxis;
+    cout<<"area of ellipse is: "<<area<<endl;
+    return 0;
+}====================================
+6 question
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    int no_ofside,length,apothem,area;
+    cout<<"enter the value for no ofside and length is:\n ";
+    cin>>no_ofside>>length;
+    apothem= ((length)/(2*(tan(180/no_ofside))));
+    cout<<apothem<<endl;
+    area=(no_ofside*length*apothem)/2;
+    cout<<"area of regular ploygon is: "<<area<<endl;
+    return 0;
+}
+=================================
+7 question
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+    float radius,angle,area;
+    cout<<"enter the radius and angel:\n";
+    cin>>radius>>angle;
+    float angle_r=angle*M_PI/360.0;
+    area=0.5*radius*radius*angle_r;
+    cout<<"area of sector of a circle is: "<<area<<endl;
+    return 0;
+}
+    ====================================
+8 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    float km,m;
+    cout<<"enter the unit of km:";
+    cin>>km;
+    m=km*1000;
+    cout<<"the units of km to m is: "<<m<<endl;
+    return 0;
+}======================================
+9 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    float inr,pkr,pkr_exchangerate;
+    cout<<"enter the indian rupees:";
+    cin>>inr;
+    pkr_exchangerate=3.58;
+    pkr=inr*pkr_exchangerate;
+    cout<<"rate of inr to pkr is: "<<pkr<<endl;
+    return 0;
+}
+==============================================
