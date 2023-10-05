@@ -1,0 +1,61 @@
+1 question
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n,flag=0;
+    cin>>n;
+    for(int i=2;i<n;i++)
+    {
+        if(n%i==0)
+        {
+            flag=1;
+            break;
+        }
+    }
+    if(flag==0)
+    {
+        cout<<"prime number";
+    }
+    else
+    {
+        cout<<"not a prime number";
+    }
+    return 0;
+}
+===============================================
+2 question
+#include <iostream>
+using namespace std;
+int main()
+{
+   int n,result;
+   cin>>n;//range 1-100
+   for(int i=1;i<=n;i++)
+   {
+       for(int j=1;j<10;j++)
+       {
+           result=i*j;
+           cout<<result<<" ";
+       }
+       cout<<"\n";
+    }
+}
+=====================================================
+3 question
+#include <iostream>
+using namespace std;
+int main()
+{
+   for(int i=1;i<=4;i++)
+   {
+       for(int j=1;j<=i;j++)
+       {
+           cout<<"*";
+       }
+       cout<<"\n";
+   }
+       
+       
+       
+    ============================================

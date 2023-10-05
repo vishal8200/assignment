@@ -1,0 +1,109 @@
+1 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age[]={12,22,34,45,34,44};
+    int n=(sizeof(age)/sizeof(age[0]));
+    for(int i=0;i<n;i++)
+    {
+        cout<<age[i]<<" ";
+    }
+}
+=======================================
+2 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    //int age[]={12,22,34,45,34,44};
+    char alphabet[]={'a','b','c','d'};
+    int n=(sizeof(alphabet)/sizeof(alphabet[0]));
+    for(int i=0;i<n;i++)
+    {
+        cout<<alphabet[i]<<" ";
+    }
+}=================================================
+3 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    //int age[]={12,22,34,45,34,44};
+    char alphabet[]={'a','b','c','d'};
+    string names[]={"vishal","rehaan"};
+    int n=(sizeof(names)/sizeof(names[0]));
+    for(int i=0;i<n;i++)
+    {
+        cout<<names[i]<<" ";
+    }
+}=================================================
+4 question
+//default initailisation
+include<iostream>
+using namespace std;
+int main()
+{
+    int age[4]={};
+    int n=(sizeof(age)/sizeof(age[0]));
+    for(int i=0;i<n;i++)
+    {
+        cout<<n<<" ";
+    }
+}
+================================================
+5 question
+//partial iniatialisation
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age[6]={1,2,3,4,5};
+    int n=(sizeof(age)/sizeof(age[0]));
+    for(int i=0;i<n;i++)
+    {
+        cout<<age[i]<<" ";
+    }
+}====================================================
+6 question
+//partial iniatialisation
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age[]={1,2,3,4,5};
+    int n=(sizeof(age)/sizeof(age[0]));
+    for(int i=0;i<n;i++)
+    {
+        cout<<age[i]<<" ";
+    }
+}
+=======================================================
+7 question
+//partial iniatialisation
+#include<iostream>
+using namespace std;
+int main()
+{
+    int age[8]={45};
+    int n=(sizeof(age)/sizeof(age[0]));
+    for(int i=0;i<n;i++)
+    {
+        cout<<age[i]<<" ";
+    }
+}
+===================================================
+8 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    int arr[n];
+    for(int i=0;i<n;i++)
+    {
+        cin>>arr[i];
+    }
+}=======================================
+9 question

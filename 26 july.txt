@@ -1,0 +1,68 @@
+1 question
+#include<stdio.h>
+void sub();
+void div();
+int main()
+{
+    sub();
+    div();
+    return 0;
+}
+void sub()
+{
+    int a=20;int b=10,c;
+    c=a-b;
+    printf("%d",c);
+}
+void div()
+{
+    int a=20;int b=10,c;
+    c=a/b;
+    printf("%d",c);
+}
+=====================================
+2 question
+#include<stdio.h>
+void sub();
+void div();
+int main()
+{
+    sub();
+    div();
+    return 0;
+}
+void sub()
+{
+    int a=20;int b=10,c;
+    c=a-b;
+    printf("%d",c);
+}
+void div()
+{
+    int a=20;int b=10,c;
+    c=a/b;
+    printf("%d",c);
+}
+
+=====================================
+3 question
+#include<stdio.h>
+void add(int a,float b);
+int main()
+{
+    add(20,3.5);
+    return 0;
+}
+void add(int a,float b)
+{
+    float c=a+b;
+    printf("%f",c);
+}
+=================================
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+1 question
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    if(n%2==0)
+    {
+        cout<<"even number";
+    }
+    else
+    {
+       cout<<"odd number";
+    }
+    return 0;
+}
+===================================================
+2 question
+#include <iostream>
+using namespace std;
+int main()
+{
+    char ch;
+    cout<<"enter the value for ch:\n";
+    cin>>ch;
+    ch=tolower(ch);
+    if(ch=='a' || ch== 'e' || ch=='i' || ch=='o' || ch=='u')
+    {
+        cout<<"vowel";
+    }
+    else
+    {
+        cout<<"not a vowel";
+    }
+    return 0;
+}
+========================================
+3 question
+#include <iostream>
+using namespace std;
+int main()
+{
+    int num;
+    cout<<"enter the number:";
+    cin>>num;
+    if(num>0)
+    {
+        cout<<"positive";
+    }
+    else if(num<0)
+    {
+        cout<<"negative";
+    }
+    else {
+        cout<<"zero";
+    }
+    return 0;
+}
+====================================
+4 question

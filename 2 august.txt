@@ -1,0 +1,136 @@
+1 question     defaulyt
+#include<iostream>
+using namespace std;
+class car 
+{
+    private:
+        string make;
+        string model;
+        int yearofmfc;
+    public:
+    car()
+    {
+        make="toyata";
+        model="fortuner";
+        yearofmfc=2016;
+    }
+    void getdetails()
+    {
+        cout<<"\n"<<"make is:"<<make;
+        cout<<"\n"<<"model is:"<<model;
+        cout<<"\n"<<"year is:"<<yearofmfc;
+    }
+};
+int main()
+{
+    car c1;
+    c1.getdetails();
+}
+===========================================
+2 question     ( default and paramitarised)
+#include<iostream>
+using namespace std;
+class car 
+{
+    private:
+        string make;
+        string model;
+        int yearofmfc;
+    public:
+    car()
+    {
+        make="toyata";
+        model="fortuner";
+        yearofmfc=2016;
+    }
+    car(string m,string o,int y)
+    {
+        make=m;
+        model=o;
+        yearofmfc=y;
+    }
+    void getdetails()
+    {
+        cout<<"\n"<<"make is:"<<make;
+        cout<<"\n"<<"model is:"<<model;
+        cout<<"\n"<<"year is:"<<yearofmfc;
+    }
+};
+int main()
+{
+    car c1;
+    c1.getdetails();
+    car c2("maruti","swift",2018);
+    c2.getdetails();
+}
+================================================
+3 question default and paramitrised
+#include<iostream>
+using namespace std;
+class book
+{
+    private:
+        string title;
+        string author;
+        int p_year;
+    public:
+    book()
+    {
+        title="x";
+        author="y";
+        p_year=2016;
+    }
+    book(string t,string a,int y)
+    {
+        title=t;
+        author=a;
+        p_year=y;
+    }
+    void getdetails()
+    {
+        cout<<"\n"<<"titleis:"<<title;
+        cout<<"\n"<<"author is:"<<author;
+        cout<<"\n"<<"p_yearis:"<<p_year;
+    }
+};
+int main()
+{
+    book b1;
+    b1.getdetails();
+    book b2("title","author",2018);
+    b2.getdetails();
+}
+======================================
+3 question
+#include<iostream>
+using namespace std;
+class time
+{
+    private:
+        float hours;
+        float minutes;
+    public:
+    time()
+    {
+        hours=5;
+        minutes=10;
+    }
+    time(float h,float m)
+    {
+        hours=h;
+        minutes=m;
+    }
+    void displaytime()
+    {
+        cout<<"\n"<<"hours is:"<<hours;
+        cout<<"\n"<<"minutes is:"<<minutes;
+    }
+};
+int main()
+{
+    time t1;
+    t1.displaytime();
+    time t2(3,20);
+    t2.displaytime();
+}
+--------------------------------------------------------------------

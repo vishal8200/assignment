@@ -1,0 +1,41 @@
+c++
+1 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c;
+    cout<<"enter value \n of a:";
+    cin>>a;
+    cout<<"enter value \n for b:";
+    cin>>b;
+    cout<<"enter value for c:";
+    cin>>c;
+}=================================
+ 2 question
+#include<iostream>
+using namespace std;
+int main()
+{
+    int length,breadth,height;
+    cout<<"enter value of length:\n";
+    cin>>length;
+    cout<<length;
+    cout<<"enter value for breadth:\n";
+    cin>>breadth;
+    cout<<breadth;
+    cout<<"enter value for height:";
+    cin>>height;
+}
+=======================================
+3 qustion
+#include<iostream>
+using namespace std;
+int main()
+{
+    int length,breadth,height,volume;
+    cin>>length>>breadth>>height;
+    volume = length*breadth*height;
+    cout<<volume;
+}
+    =========================================

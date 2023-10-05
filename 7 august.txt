@@ -1,0 +1,62 @@
+1 question
+#include<iostream>
+using namespace std;
+class person
+{
+    private:
+    string name;
+    int age;
+    public:
+    person()
+    {
+        name="vishal";
+        age=20;
+    }
+    void displayinfo()
+    {
+        cout<<"name is:"<<name<<endl;
+        cout<<"age is:"<<age<<endl;
+    }
+};
+int main()
+{
+    person p1;
+    p1.displayinfo();
+}
+    
+    ============================================
+2 question
+#include<iostream>
+using namespace std;
+class rectangle
+{
+    private:
+       int length;
+       int width;
+       int area;
+    public:
+    rectangle(int l,int w)
+    {
+        length=l;
+        width=w;
+    }
+     void areafxtn()
+     {
+         area=length*width;
+         
+     }
+     void displayinfo()
+    {
+        cout<<length<<" "<<width<<endl;
+        cout<<"area is:"<<area<<endl;
+    } 
+};
+int main()
+{
+     rectangle r1(20,30);
+     r1.areafxtn();
+     r1.displayinfo();
+}
+ 
+ 
+=====================================
