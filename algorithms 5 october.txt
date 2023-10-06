@@ -1,0 +1,138 @@
+1 question
+(linear search)
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[]={15,12,13,45,78,96,55};
+    int key=55,flag=-1,index;
+    int n=(sizeof(arr)/sizeof(arr[0]));
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]==key)
+        {
+        flag=1;//match
+        index=i;
+        break;
+        }
+    
+    }    
+    if(flag==1)
+    cout<<"found at position"<<index<<" ";
+    else 
+    cout<<"element not found"<<" ";
+}
+====================================================
+2 question
+(binary search)
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[]={12,13,14,15,25,35,45,55};
+    int n=(sizeof(arr)/sizeof(arr[0]));
+    int key=45,flag=-1,index,start=0,end=n-1;
+    while(start<=end)
+    {
+        int mid=(start+end)/2;
+        if(arr[mid]==key)
+        {
+        flag=1;
+        index=mid;
+        break;
+        }
+        else if(arr[mid]>key)
+        {
+            end=mid-1;
+        }
+        else {
+            start=mid+1;
+        }
+    
+    }    
+    if(flag==1)
+    cout<<"found at position"<<index<<" ";
+    else 
+    cout<<"element not found"<<" ";
+}
+============================================================
+3 question
+(selection sort)
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[]={99,39,27,51,75,86,55,15};
+    int n=(sizeof(arr)/sizeof(arr[0]));
+    int minIndex;
+    for(int i=0;i<n;i++)
+    {
+        minIndex=i;
+        for(int j=i+1;j<n;j++)
+        {
+            if(arr[j]<arr[minIndex])
+            {
+                minIndex=j;
+            }
+        }
+        swap(arr[i],arr[minIndex]);
+    }
+    for(auto it:arr)
+    {
+        cout<<it<<" ";
+    }
+    
+}============================================================
+4 question
+(bubble sort)
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[]={99,15,27,101,56,12,19,71,89};
+    int n=(sizeof(arr)/sizeof(arr[0]));
+    int minIndex;
+    for(int i=0;i<n-1;i++)
+    {
+        for(int j=0;j<n-1-i;j++)
+        {
+            if(arr[j]>arr[j+1])
+            {
+                swap(arr[j],arr[j+1]);
+            }
+        }
+        for(auto it:arr)
+    {
+        cout<<it<<" ";
+    }
+    cout<<"\n";
+    }
+    
+}
+================================================
+5 question
+(insertion sort)
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[]={2,9,5,1,3};
+    int n=(sizeof(arr)/sizeof(arr[0]));
+    for(int i=1;i<n;i++)
+    {
+        for(int j=i-1;j>=0;j--)
+        {
+            if(arr[j]>arr[j+1])
+            {
+                swap(arr[j],arr[j+1]);
+            }
+        }
+        for(auto it:arr)
+    {
+        cout<<it<<" ";
+    }
+    cout<<"\n";
+    }
+    
+}
+=================================================================
