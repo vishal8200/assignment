@@ -1,0 +1,63 @@
+1 question (linear sort)
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[]={15,12,13,45,78,96,55};
+    int key=55,flag=-1,index;
+    int n=(sizeof(arr)/sizeof(arr[0]));
+    for(int i=0;i<n;i++)
+    {
+        if(arr[i]==key)
+        {
+        flag=1;
+        index=i;
+        break;
+        }
+    
+    }    
+    if(flag==1)
+    cout<<"found at position"<<index<<" ";
+    else 
+    cout<<"element not found"<<" ";
+}
+============================\==================
+6 question  (bubble sort)
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[]={98,15,38,18,104,67,89};
+    int n=(sizeof(arr)/sizeof(arr[0]));
+    for(int i=0;i<n-1;i++)
+    {
+        for(int j=0;j<n-1-i;j++)
+        {
+            if(arr[j]>arr[j+1])
+            {
+                swap(arr[j],arr[j+1]);
+            }
+        }
+        for(auto it:arr)
+    {
+        cout<<it<<" ";
+    }
+    cout<<"\n";
+    }
+}
+==============================================================
+7 question (sum)
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int arr[]={2,6,8,3,8,8};
+    int n=(sizeof(arr)/sizeof(arr[0]));
+    int sum=0;
+    for(int i=0;i<n;i++)
+    {
+        sum=sum+arr[i];
+    }
+    cout<<sum<<" ";
+}
+        
